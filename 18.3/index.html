@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .action{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="app">
+
+    <a v-bind:class="{action : isAction}" v-bind:href="url">
+
+        <!--<img v-bind:src="img" />-->
+        点我
+
+    </a>
+
+</div>
+
+
+<script src="../lib/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
